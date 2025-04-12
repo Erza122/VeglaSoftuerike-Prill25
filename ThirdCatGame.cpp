@@ -26,7 +26,7 @@ void timerFunction(int timeLimit) {
 
 // Function to play the kitten video
 void playKittensVideo() {
-    string videoPath = "C:/Users/fatos/Desktop/media/kittens_video.mp4"; // Modify path as needed
+    string videoPath = "media/kittens3_video.mp4"; // Modify path as needed
 
 #ifdef _WIN32
     // Play video with default player (asynchronously)
