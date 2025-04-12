@@ -7,7 +7,7 @@ using namespace std;
 
 // Function to play the kitten video
 void playKittensVideo() {
-    string videoPath = "media/kittens2_video.mp4"; // Modify the path if needed
+    string videoPath = "kittens2_video.mp4"; // Modify the path if needed
 
 #ifdef _WIN32
     // Open the video in the default player
@@ -18,18 +18,33 @@ void playKittensVideo() {
 #endif
 }
 
-// Function to start the simple cat guessing game
+// Function to display the rooms with ASCII art
+void displayRooms(int catRoom, int guessRoom) {
+    cout << "\nRooms: \n";
+    for (int i = 1; i <= 5; i++) {
+        if (i == guessRoom) {
+            cout << "[X] "; // Represent a guessed room with 'X'
+        } else {
+            cout << "[ ] "; // Empty room
+        }
+    }
+    cout << "\n";
+}
+
+// Function to start the simple cat guessing game with visuals
 void startSimpleCatGame() {
     srand(time(0));
 
-    // Randomly select a room (1 to 5)
+    // Randomly select a room (1 to 5) for the cat to hide in
     int catRoom = rand() % 5 + 1;
 
     cout << "Welcome to the Simple Cat Finder Game!" << endl;
     cout << "The cat is hiding in one of the rooms (1 to 5)." << endl;
 
-    int guess;
+    int guess = 0; // Initialize guess to a default value
     while (true) {
+        displayRooms(catRoom, guess); // Display the current state of the rooms
+
         cout << "Guess the room number where the cat is hiding (1-5): ";
         cin >> guess;
 
@@ -51,7 +66,7 @@ void startSimpleCatGame() {
 }
 
 int main() {
-    // Start the simple cat game
+    // Start the simple cat game with visuals
     startSimpleCatGame();
 
     return 0;
