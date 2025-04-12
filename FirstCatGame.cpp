@@ -2,14 +2,17 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+#include <cmath> // For calculating distance
 #include <windows.h> // For system call
 
 using namespace std;
 
-// Function to display the grid
+// Function to display the grid with ASCII art
 void displayGrid(char grid[5][5]) {
     cout << "\nCurrent Grid: \n";
+    cout << "    0   1   2   3   4\n";  // Column headers
     for (int i = 0; i < 5; i++) {
+        cout << i << " ";  // Row headers
         for (int j = 0; j < 5; j++) {
             cout << "[" << grid[i][j] << "] ";
         }
@@ -19,7 +22,7 @@ void displayGrid(char grid[5][5]) {
 
 // Function to play the kitten video
 void playKittensVideo() {
-    string videoPath = "media/kittens_video.mp4"; // Modify the path if needed
+    string videoPath = "C:/Users/fatos/Desktop/media/kittens_video.mp4"; // Modify the path if needed
 
 #ifdef _WIN32
     // Open the video in the default player
@@ -30,6 +33,19 @@ void playKittensVideo() {
 #endif
 }
 
+// Function to give a hint about the cat's position
+void giveHint(int catRow, int catCol, int guessRow, int guessCol) {
+    int rowDiff = abs(catRow - guessRow);
+    int colDiff = abs(catCol - guessCol);
+
+    cout << "\nHint: ";
+    if (rowDiff > colDiff) {
+        cout << "The cat is further " << (catRow > guessRow ? "down" : "up") << "." << endl;
+    } else {
+        cout << "The cat is further " << (catCol > guessCol ? "right" : "left") << "." << endl;
+    }
+}
+
 int main() {
     srand(time(0));  // Initialize random seed
 
@@ -37,7 +53,7 @@ int main() {
     int catRow = rand() % gridSize;
     int catCol = rand() % gridSize;
 
-    // Initialize grid with '-'
+    // Initialize grid with '-' for empty cells
     char grid[5][5];
     for (int i = 0; i < gridSize; i++) {
         for (int j = 0; j < gridSize; j++) {
@@ -51,6 +67,7 @@ int main() {
     displayGrid(grid);  // Display the initial grid
 
     int guessRow, guessCol;
+    int guessCount = 0;  // To count the number of guesses
 
     while (true) {
         cout << "\nEnter row (0-4): ";
@@ -76,6 +93,13 @@ int main() {
             // Mark the guess on the grid
             grid[guessRow][guessCol] = 'X';
             displayGrid(grid);  // Show updated grid with the guess
+
+            // Provide a hint after 3 incorrect guesses
+            guessCount++;
+            if (guessCount >= 3) {
+                giveHint(catRow, catCol, guessRow, guessCol);
+                guessCount = 0;  // Reset guess count after hint
+            }
         }
     }
 
