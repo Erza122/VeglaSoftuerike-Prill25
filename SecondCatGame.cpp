@@ -7,7 +7,7 @@ using namespace std;
 
 // Function to play the kitten video
 void playKittensVideo() {
-    string videoPath = "media/kittens_video.mp4"; // Modify the path if needed
+    string videoPath = "media/kittens2_video.mp4"; // Modify the path if needed
 
 #ifdef _WIN32
     // Open the video in the default player
