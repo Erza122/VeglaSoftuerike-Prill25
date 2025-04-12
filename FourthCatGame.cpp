@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
+#include <windows.h>
 using namespace std;
 
 // Function to ask a question and get player's response
@@ -11,6 +11,19 @@ string askQuestion(const string& question) {
     cin >> answer;
     return answer;
 }
+// Function to play the kitten video asynchronously
+void playKittensVideo() {
+    string videoPath = "media/kittens4_video.mp4"; // Modify the path if needed
+
+#ifdef _WIN32
+    // Open the video in the default player asynchronously
+    system(("start /min " + videoPath).c_str());
+#else
+    // For Linux/MacOS, using VLC or default video player
+    system(("vlc " + videoPath + " &").c_str());
+#endif
+}
+
 
 int main() {
     srand(time(0)); // Seed for random number generation
@@ -34,6 +47,7 @@ int main() {
             if (catRoom == 0) {
                 foundCat = true;
                 cout << "You found the cat in the living room!" << endl;
+                playKittensVideo();
             }
             else {
                 cout << "The cat is not in the living room." << endl;
@@ -45,6 +59,7 @@ int main() {
             if (catRoom == 1) {
                 foundCat = true;
                 cout << "You found the cat in the kitchen!" << endl;
+                playKittensVideo();
             }
             else {
                 cout << "The cat is not in the kitchen." << endl;
@@ -56,6 +71,7 @@ int main() {
             if (catRoom == 2) {
                 foundCat = true;
                 cout << "You found the cat in the bathroom!" << endl;
+                playKittensVideo();
             }
             else {
                 cout << "The cat is not in the bathroom." << endl;
@@ -67,6 +83,7 @@ int main() {
             if (catRoom == 3) {
                 foundCat = true;
                 cout << "You found the cat in the bedroom!" << endl;
+                playKittensVideo();
             }
             else {
                 cout << "The cat is not in the bedroom." << endl;
@@ -78,6 +95,7 @@ int main() {
             if (catRoom == 4) {
                 foundCat = true;
                 cout << "You found the cat in the attic!" << endl;
+                playKittensVideo();
             }
             else {
                 cout << "The cat is not in the attic." << endl;
