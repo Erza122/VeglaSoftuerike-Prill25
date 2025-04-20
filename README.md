@@ -1,5 +1,5 @@
 # VeglaSoftuerike-Prill25
-Loja "Gjeje dhomën e maces" (C++)
+Loja "Gjeje dhomën e maces"
 Ky është një koleksion lojërash të thjeshta në C++ ku duhet të gjesh në cilën nga dhomat është fshehur macja. Çdo version sjell diçka të re për të ushtruar koncepte të ndryshme në programim.
 
 Versionet e lojës
