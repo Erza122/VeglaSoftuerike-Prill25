@@ -46,6 +46,7 @@ Shkarkoni versionin që dëshironi
 
 Përpiloni me komandën:
 
+bash
 Copy
 Edit
 g++ emri_skedarit.cpp -o loja
@@ -92,6 +93,8 @@ E përshtatshme për fillestarë dhe përdorues më të avancuar
 Lehtësisht e modifikueshme për qëllime edukative ose zbavitëse
 
 Shkarkoni dhe filloni të luani
+
+
 
 
 
