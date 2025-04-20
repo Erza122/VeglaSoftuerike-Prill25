@@ -101,5 +101,5 @@ Kontributet janë të mirëseardhura për të përmirësuar këto lojëra! Ja si
 ## Licenca
 
 Ky projekt është open-source dhe i disponueshëm për përdorim dhe modifikim të lirë.
-Ju lutemi, kreditoni autorët origjinalë nëse e përdorni apo e përshtatni këtë kod.
+
 
