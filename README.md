@@ -1,41 +1,89 @@
-# VeglaSoftuerike-Prill25
-README i Projektit
-Ky projekt ka katër lojëra interaktive ku lojtarët duhet të zgjidhin sfida si gjetja e macave në një grid dhe shmangia e pengesave. Përveç kësaj, ka një timer dhe video argëtuese me macet. Lojërat janë të thjeshta dhe mund të ekzekutohen në Windows, Linux dhe macOS.
+VeglaSoftuerike/Prill2025
+Lojërat "Gjej Macen"
+4 versione të ndryshme të lojës për të gjetur macen e fshehur
 
-Tiparet
-1. Grid Dinamike: Shfaq grid me ASCII.
-2. Gjej Macen dhe Pengesat: Gjej macen në grid dhe shmang pengesat.
-3. Timer: Koha është e kufizuar për të shtuar sfidë.
-4. Video Macet: Video me macet që luhet gjatë lojës.
-5. Kompatibilitet me Sistemet e Ndryshme: Funksionon në Windows, Linux dhe macOS.
+Përshkrim i Lojërave
+Lojë me Grid
 
-Kërkesat
-• Kompilues C++ (GCC, MinGW, etj.)
-• Sistemi Windows, Linux ose macOS.
+Kërkoni macen në një grid 5x5 me pengesa
 
-Instalimi
-1. Klononi Repo-n:
-git clone <repository_url>
-cd <repository_directory>
+Keni 30 sekonda dhe merrni këshilla
 
-2. Kompiloni Kodin:
-Në Windows:
-g++ -o game main.cpp
+Fitoni duke gjetur koordinatat e sakta
 
-Në Linux/macOS:
-g++ -o game main.cpp -std=c++11
+Lojë me Dhoma
 
-3. Ekzekutoni Lojën:
-./game
+Zgjidhni një dhomë (1-5)
 
-Mekanizmat e Lojës
-1. Grid-i: Gjej macen e fshehur dhe shmang pengesat.
-2. Këshillat: Merr këshilla për vendndodhjen e macës.
-3. Timer: Gjej macen para se të mbarojë koha.
-4. Pengesat: Pengesat i bëjnë lojën më të vështirë.
+Shmangni kurthin që ruan pozicionin
 
+3 tentativa për të fituar
 
-Licenca
+Lojë me Kohë
 
-Ky projekt është i licencuar nën Licencën MIT.
+Kërkoni në 3 dhoma (Majtas/Qendër/Djathtas)
 
+Vetëm 30 sekonda dhe 5 përpjekje
+
+Sfidë kundër kohës
+
+Lojë me Pyetje
+
+Përgjigjuni "po/jo" për të kontrolluar dhoma
+
+3 tentativa për të gjetur macen
+
+Si të Xhirohen
+Kërkesat:
+
+G++ ose Visual Studio
+
+Media player për video kotelash
+
+Instalimi:
+
+Shkarkoni kodin për versionin që dëshironi
+
+Përpiloni:
+
+bash
+g++ emri_skedarit.cpp -o loja
+Xhirojeni:
+
+bash
+./loja
+Si të Luhen
+Grid: Shkruani koordinatat (0-4) për të kërkuar
+
+Dhoma: Zgjidhni numrin e dhomës (1-5)
+
+Kohë: Përgjigjuni shpejt brenda 30 sekondave
+
+Pyetje: Përgjigjuni "po/jo" për çdo dhomë
+
+Çfarë Fitoni
+Video kotelash kur gjeni macen
+
+Sfida të ndryshme për të testuar aftësitë tuaja
+
+Kontributori
+Fork repo
+
+Shtoni veçori të reja:
+
+Nivele të reja
+
+Grafikë
+
+Sistem pikësh
+
+Dërgoni Pull Request
+
+Pse të Luani?
+E thjeshtë dhe argëtuese
+
+Versione për të gjithë (nga fillestarët te ekspertët)
+
+Mund të modifikohet lehtësisht
+
+Shkarkoni dhe filloni të luani!
