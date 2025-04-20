@@ -26,34 +26,43 @@ Përgjigjuni "po/jo" për të kontrolluar dhoma. 3 tentativa për të gjetur mac
 2. Përpiloni me komandën:  
    ```bash
    g++ emri_skedarit.cpp -o loja
-Xhirojeni me komandën:
-
-bash
+## Xhirojeni me komandën:
+```bash
 ./loja
 Si të Luhen
-Grid: Shkruani koordinatat (0-4) për të kërkuar.
+Grid
+Shkruani koordinatat (0-4) për të kërkuar
 
-Dhoma: Zgjidhni numrin e dhomës (1-5).
+Dhoma
+Zgjidhni numrin e dhomës (1-5)
 
-Kohë: Përgjigjuni shpejt brenda 30 sekondave.
+Kohë
+Përgjigjuni shpejt brenda 30 sekondave
 
-Pyetje: Përgjigjuni "po/jo" për çdo dhomë.
+Pyetje
+Përgjigjuni "po/jo" për çdo dhomë
 
 Çfarë Fitoni
-Video kotelash kur gjeni macen.
+Video kotelash kur gjeni macen
 
-Sfida të ndryshme për të testuar aftësitë tuaja.
+Sfida të ndryshme për të testuar aftësitë tuaja
 
 Kontributori
-Fork repo.
+Fork repo
 
-Shtoni veçori të reja si nivele të reja, grafikë, ose sistem pikësh.
+Shtoni veçori të reja si:
 
-Dërgoni Pull Request.
+Nivele të reja
+
+Grafikë
+
+Sistem pikësh
+
+Dërgoni Pull Request
 
 Pse të Luani?
-E thjeshtë dhe argëtuese.
+E thjeshtë dhe argëtuese
 
-Versione për të gjithë (nga fillestarët te ekspertët).
+Versione për të gjithë (nga fillestarët te ekspertët)
 
 Shkarkoni dhe filloni të luani!
