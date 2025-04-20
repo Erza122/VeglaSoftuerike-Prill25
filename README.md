@@ -2,23 +2,23 @@ VeglaSoftuerike / Prill 2025
 Lojërat “Gjej Macen”
 Katër versione unike të lojës për të gjetur macen e fshehur
 
-Përshkrim i Lojërave
+Përshkrim i Lojërave:
 Lojë me Grid
 Kërkoni macen në një grid 5x5 me pengesa.
 Keni 30 sekonda dhe merrni këshilla.
 Fitoni duke gjetur koordinatat e sakta.
 
-Lojë me Dhoma
+Lojë me Dhoma:
 Zgjidhni një dhomë (1-5).
 Shmangni kurthin që ruan pozicionin.
 3 tentativa për të fituar.
 
-Lojë me Kohë
+Lojë me Kohë:
 Kërkoni në 3 dhoma (Majtas/Qendër/Djathtas).
 Vetëm 30 sekonda dhe 5 përpjekje.
 Sfidë kundër kohës.
 
-Lojë me Pyetje
+Lojë me Pyetje:
 Përgjigjuni "po/jo" për të kontrolluar dhoma.
 3 tentativa për të gjetur macen.
 
