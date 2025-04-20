@@ -23,21 +23,26 @@ Lojë me Pyetje-
 Përgjigjuni "po/jo" për të kontrolluar dhoma
 3 tentativa për të gjetur macen
 
+
 Si të Xhirohen
 Kërkesat:
 G++ ose Visual Studio
 Media player për video kotelash
 
+
 Instalimi:
 Shkarkoni kodin për versionin që dëshironi
+
 
 Përpiloni:
 bash
 g++ emri_skedarit.cpp -o loja
 
+
 Xhirojeni:
 bash
 ./loja
+
 
 Si të Luhen
 Grid: Shkruani koordinatat (0-4) për të kërkuar
@@ -45,10 +50,11 @@ Dhoma: Zgjidhni numrin e dhomës (1-5)
 Kohë: Përgjigjuni shpejt brenda 30 sekondave
 Pyetje: Përgjigjuni "po/jo" për çdo dhomë
 
+
 Çfarë Fitoni
 Video kotelash kur gjeni macen
-
 Sfida të ndryshme për të testuar aftësitë tuaja
+
 
 Kontributori-
 Fork repo
@@ -58,9 +64,11 @@ Grafikë
 Sistem pikësh
 Dërgoni Pull Request
 
+
 Pse të Luani?
 E thjeshtë dhe argëtuese
 Versione për të gjithë (nga fillestarët te ekspertët)
 Mund të modifikohet lehtësisht
+
 
 Shkarkoni dhe filloni të luani!
