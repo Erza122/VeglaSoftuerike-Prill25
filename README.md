@@ -39,14 +39,12 @@ Kohë: Përgjigjuni shpejt brenda 30 sekondave.
 
 Pyetje: Përgjigjuni "po/jo" për çdo dhomë.
 
-Çfarë Fitoni
+Çfarë Fitoni:
 Video kotelash kur gjeni macen.
-
 Sfida të ndryshme për të testuar aftësitë tuaja.
 
 Kontributori
 Fork repo.
-
 Shtoni veçori të reja si nivele të reja, grafikë, ose sistem pikësh.
 
 Dërgoni Pull Request.
