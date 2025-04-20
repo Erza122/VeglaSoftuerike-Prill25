@@ -3,50 +3,35 @@ Lojërat “Gjej Macen”
 Katër versione unike të lojës për të gjetur macen e fshehur
 
 Përshkrim i Lojërave
-1. Lojë me Grid
-Kërkoni macen në një grid 5x5 me pengesa
+Lojë me Grid
+Kërkoni macen në një grid 5x5 me pengesa.
+Keni 30 sekonda dhe merrni këshilla.
+Fitoni duke gjetur koordinatat e sakta.
 
-Keni 30 sekonda për ta gjetur
+Lojë me Dhoma
+Zgjidhni një dhomë (1-5).
+Shmangni kurthin që ruan pozicionin.
+3 tentativa për të fituar.
 
-Merrni këshilla për të ngushtuar kërkimin
+Lojë me Kohë
+Kërkoni në 3 dhoma (Majtas/Qendër/Djathtas).
+Vetëm 30 sekonda dhe 5 përpjekje.
+Sfidë kundër kohës.
 
-Fitoni duke gjetur koordinatat e sakta
-
-2. Lojë me Dhoma
-Zgjidhni një dhomë (1 deri në 5)
-
-Shmangni kurthin që ruan një nga pozicionet
-
-Keni vetëm 3 tentativa për të fituar
-
-3. Lojë me Kohë
-Kërkoni në 3 dhoma: Majtas, Qendër, Djathtas
-
-Vetëm 30 sekonda në dispozicion
-
-5 përpjekje për të gjetur macen
-
-Një sfidë kundër kohës
-
-4. Lojë me Pyetje
-Përgjigjuni me "po" ose "jo" për të kontrolluar dhomat
-
-Vetëm 3 tentativa për të zbuluar pozicionin e saktë
-
-Loja kërkon analizë dhe pak fat
+Lojë me Pyetje
+Përgjigjuni "po/jo" për të kontrolluar dhoma.
+3 tentativa për të gjetur macen.
 
 Si të Xhirohen
-Kërkesat
-Kompajler si G++ ose Visual Studio
+Kërkesat:
+G++ ose Visual Studio
 
-Media player për të shfaqur video të maceve
+Media player për video kotelash
 
-Instalimi dhe Xhirimi
-Shkarkoni versionin që dëshironi
-
+Instalimi:
+Shkarkoni kodin për versionin që dëshironi.
 Përpiloni me komandën:
 
-bash
 Copy
 Edit
 g++ emri_skedarit.cpp -o loja
@@ -57,42 +42,40 @@ Copy
 Edit
 ./loja
 Si të Luhen
+Grid:
+Shkruani koordinatat (0-4) për të kërkuar.
 
-Lloji i lojës	Udhëzime për lojën
-Grid	Shkruani koordinatat (0 deri në 4)
-Dhoma	Zgjidhni një numër dhome (1 deri në 5)
-Kohë	Përgjigjuni shpejt brenda 30 sekondave
-Pyetje	Përgjigjuni me "po" ose "jo" për çdo dhomë
-Çfarë Fitoni?
-Video argëtuese kur gjeni macen
+Dhoma:
+Zgjidhni numrin e dhomës (1-5).
 
-Sfidat testojnë logjikën dhe vendimmarrjen tuaj
+Kohë:
+Përgjigjuni shpejt brenda 30 sekondave.
 
-Kënaqësi dhe praktikë për të gjitha nivelet e përdoruesve
+Pyetje:
+Përgjigjuni "po/jo" për çdo dhomë.
 
-Kontributi
-Nëse dëshironi të kontribuoni:
+Çfarë Fitoni
+Video kotelash kur gjeni macen.
 
-Fork-oni projektin në GitHub
+Sfida të ndryshme për të testuar aftësitë tuaja.
 
-Shtoni veçori të reja si:
+Kontributori
+Fork repo.
 
-Nivele të reja
+Shtoni veçori të reja si nivele të reja, grafikë, ose sistem pikësh.
 
-Grafikë
-
-Sistem pikësh
-
-Dërgoni një Pull Request me përmirësimet tuaja
+Dërgoni Pull Request.
 
 Pse të Luani?
-Lojë e thjeshtë dhe argëtuese
+E thjeshtë dhe argëtuese.
 
-E përshtatshme për fillestarë dhe përdorues më të avancuar
+Versione për të gjithë (nga fillestarët te ekspertët).
 
-Lehtësisht e modifikueshme për qëllime edukative ose zbavitëse
+Mund të modifikohet lehtësisht.
 
-Shkarkoni dhe filloni të luani
+Shkarkoni dhe filloni të luani!
+
+
 
 
 
